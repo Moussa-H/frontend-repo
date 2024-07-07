@@ -11,5 +11,5 @@ class Client:
         print(f"Server IP Address: {self.config['ServerIPAddress']}")
 
 if __name__ == "__main__":
-    client = Client('path/to/config.yaml')
+    client = Client('../config.yaml')
     client.print_server_ip()
